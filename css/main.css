@@ -1,0 +1,231 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1f202b;
+  /*background-color: yellow; */
+}
+
+h1 {
+  color: white;
+  float: left;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 58px;
+}
+
+h2 {
+  color: #f70074;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+h3 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h4 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+h5 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+h6 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#top {
+  height: 725px;
+}
+
+#portfolio {
+  height: 1075px;
+}
+
+#about {
+  height:  550px;
+}
+
+#contact {
+  height:  450px;
+}
+
+/*****  GRID  *****/
+.full-width {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 700px;
+  float: left;
+}
+
+.half-width-left {
+  min-height: 354px;
+  width: 700px;
+  float: left;
+}
+
+.half-width-right {
+  min-height: 354px;
+  width: 700px;
+  float: left;
+}
+
+.third-width {
+  width: 466px;
+  float: left;
+}
+
+/*****  HEADER  *****/
+
+header {
+  /*background-color: pink; */
+  background-color: white;
+  height: 76px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-left: 40px;
+  margin-top: 0;
+}
+
+header h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 22px;
+}
+
+nav {
+  font-size: 24px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+a:hover {
+  color: #f70074;
+  font-weight: bolder;
+}
+
+/*****  TOP  *****/
+
+#top {
+  clear: both;
+  background-image: url(../img/hero-background.png);
+  background-position-x: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#top .half-width h1 {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+#top h1 span {
+  color: #f70074;
+}
+
+/*****  PORTFOLIO  *****/
+
+#portfolio .full-width {
+  background-color: white;
+  clear:both;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#portfolio .half-width-left {
+  background-color: white;
+  padding: 75px 50px 75px 100px;
+  text-align: right;
+  width: 550px;
+}
+
+#portfolio .half-width-right {
+  background-color: white;
+  padding: 75px 100px 75px 50px;
+  text-align: left;
+  width: 550px;
+}
+
+#portfolio h2 {
+  background-color: white;
+  margin-bottom: 0;
+}
+
+/*****  ABOUT  *****/
+
+#about {
+  /*background-color: #b7b6b2; */
+  background-image: url(../img/about-me.png);
+  background-position-x: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+#about .half-width {
+  padding-left: 100px;
+  width: 600px;
+}
+
+/*****  CONTACT  *****/
+
+#contact {
+  background-color: #1f202b;
+  text-align: center;
+}
+
+#contact h5 {
+  font-weight: bold;
+}
+
+#contact p {
+  color: white;
+}
+
+#contact a {
+  padding: 0 50px 0 50px;
+}
+
+/*****  FOOTER  *****/
+
+#footer {
+  background-color: #1f202b;
+  text-align: center;
+}
